@@ -1,0 +1,16 @@
+---
+
+- name: Install WebServer 
+  hosts: Redhat
+  remote_user: root
+
+  tasks:
+    - name: Ensure Apache is at the latest version
+      yum:
+        name: httpd
+        state: latest
+    - name: Ensure Apache is enable & running 
+      service:
+        name: httpd
+        state: started
+        enabled: yes 

@@ -1,0 +1,62 @@
+version: '3.3'
+
+services:
+  ansible-node:
+    container_name: ansible-node
+    image: akshayithape02/ansible-controller:v1
+    privileged: true
+    volumes:
+      - ./code:/home/anisble/code
+    ports:
+      - 10001:22
+    networks:
+      vnet:
+        ipv4_address: 10.10.0.2
+
+  rocky-linux-node:
+    container_name: rocky-linux-node
+    image : akshayithape02/rockylinux-server-node:v1
+    privileged: true
+    ports:
+      - 10002:22
+    networks:
+      vnet:
+        ipv4_address: 10.10.0.11
+
+  centos-node:
+    container_name: centos-node
+    image : akshayithape02/centos-server-node:v1
+    privileged: true
+    ports:
+      - 10003:22
+    networks:
+      vnet:
+        ipv4_address: 10.10.0.12
+
+  ubuntu-node:
+    container_name: ubuntu-node
+    image : akshayithape02/ubuntu-server-node:v1
+    privileged: true
+    ports:
+      - 10004:22
+    networks:
+      vnet:
+        ipv4_address: 10.10.0.13
+
+  debian-node:
+    container_name: debian-node
+    image : akshayithape02/debian-server-node:v1
+    privileged: true
+    ports:
+      - 10005:22
+    networks:
+      vnet:
+        ipv4_address: 10.10.0.14
+
+networks:
+  vnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/16
+          gateway: 10.10.0.1
