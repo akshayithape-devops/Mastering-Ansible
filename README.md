@@ -2,7 +2,6 @@
 Let's mastering the ansible concepts.
 
 ## Installation :
----
 
 * Rocky Linux OR CentOS
 
@@ -37,7 +36,6 @@ python3 -m pip install --user ansible-core==2.12.3
 ```
 
 ## Lab Setup :
----
 
 ### Lab Architecture Diagram :
 
@@ -66,8 +64,7 @@ docker exec -it ansible-node /bin/bash
 | Ubuntu Node      | 10.10.0.13 | Ubuntu 22.04 | root     |
 | Debian           | 10.10.0.14 | Debian 11    | root     |
 
-Meetups :
----
+## Meetups :
 
 * Meetup #1 (25/02/2023) - `Ansible Community Day` at [RedHat, Pune](https://www.redhat.com/en)
     * [My Talk : Ansible 101 - Hands-on]()
@@ -78,6 +75,6 @@ Meetups :
         * [Lab #4](./labs/)
     * [Meetup - Photos]
 
-Cheat Sheet :
----
+## Cheat Sheet :
+
 * [Ansible CLI Cheat Sheet By Edureka](./cheatsheets/Ansible-Cheat_Sheet_Edureka.png)
