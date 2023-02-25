@@ -67,14 +67,13 @@ docker exec -it ansible-node /bin/bash
 ## Meetups :
 
 * Meetup #1 (25/02/2023) - `Ansible Community Day` at [RedHat, Pune](https://www.redhat.com/en)
-    * [My Talk : Ansible 101 - Hands-on]()
+    * [My Talk : Ansible 101 - Hands-on](./slides/Ansible_101.pdf)
     * Hands-On Labs :
         * [Lab #1](./labs/lab-1.md)
         * [Lab #2](./labs/Lab-2/lab-2.md)
         * [Lab #3](./labs/Lab-3/lab-3.md)
         * [Lab #4](./labs/Lab-4/lab-4.md)
         * [Challenges](./labs/challenges.md)
-    * 
     * [Meetup - Photos]
 
 ## Cheat Sheet :
