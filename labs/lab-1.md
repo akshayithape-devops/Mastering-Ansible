@@ -1,4 +1,4 @@
-# Lab 1 : Run your first Ansible command
+# Lab 1 : Run Your First Ansible Command
 
 * Run ad-hoc command with localhost
 

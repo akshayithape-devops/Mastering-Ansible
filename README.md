@@ -73,6 +73,8 @@ docker exec -it ansible-node /bin/bash
         * [Lab #2](./labs/Lab-2/lab-2.md)
         * [Lab #3](./labs/Lab-3/lab-3.md)
         * [Lab #4](./labs/Lab-4/lab-4.md)
+        * [Challenges](./labs/challenges.md)
+    * 
     * [Meetup - Photos]
 
 ## Cheat Sheet :
