@@ -1,0 +1,8 @@
+---
+
+- name: Install nginx server using role.
+  hosts: Redhat
+  remote_user: root
+
+  roles:
+    - nginxinc.nginx

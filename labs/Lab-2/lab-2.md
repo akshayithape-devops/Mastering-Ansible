@@ -1,10 +1,10 @@
 # Lab 2 : Write First Ansible Playbook
 
-* Create ansible directory 
+* Create project directory 
 
 ```
-mkdir demo 
-cd demo
+mkdir lab-2 
+cd lab-2
 ```
 
 * create ansible inventory file
